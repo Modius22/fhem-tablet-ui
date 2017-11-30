@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <script src="js/fhem-tablet-ui.js"></script>
+    <title>Smarthome</title>
+  </head>
+  <body>
+    <h2>SmartHome</h2>
+    <div 
+      data-type="thermostat" 
+      data-device="AZ.WT" 
+      data-valve="ValvePosition"
+      data-min="5"
+      data-off="off" 
+      data-max="31"
+      data-boost="31"></div>
+      <!--
+    <div data-type="thermostat" data-device="WO.WT"></div>
+    <div data-type="thermostat" data-device="B.WT"></div>
+    <div data-type="thermostat" data-device="KU.WT"></div>
+    <div data-type="thermostat" data-device="K.WT"></div>
+    <div data-type="thermostat" data-device="AZ.WT"></div>
+    -->
+
+	<!DOCTYPE html>
+<html>
+<head>
+    <title>FHEM-Tablet-UI</title>
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="widget_base_width" content="60">
+    <meta name="widget_base_height" content="65">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="longpoll" content="1"> <!-- 1=longpoll;0=shortpoll every 30sec -->
+    <meta name="debug" content="0"> <!-- 1=output to console;0=not output -->
+    <meta name="widget_margin" content="3">
+     
+    <meta name="gridster_disable" content="1">
+ 
+    <link rel="stylesheet" href="/fhem/tablet/lib/jquery.gridster.min.css" />
+    <link rel="stylesheet" href="/fhem/tablet/css/fhem-tablet-ui.css" />
+    <link rel="stylesheet" href="/fhem/tablet/lib/font-awesome.min.css" />
+    <link rel="stylesheet" href="/fhem/tablet/lib/jquery.toast.min.css" />
+    <link rel="stylesheet" href="/fhem/tablet/lib/powerange.min.css" />
+    <link rel="stylesheet" href="/fhem/tablet/lib/openautomation.css" />
+    <!-- define your personal style here, it wont be overwritten  -->
+    <link rel="stylesheet" href="/fhem/tablet/css/fhem-tablet-ui-user.css" />
+     
+    <script type="text/javascript" src="/fhem/pgm2/jquery.min.js"></script>
+    <script type="text/javascript" src="/fhem/tablet/lib/jquery.knob.mod.min.js"></script>
+    <script type="text/javascript" src="/fhem/tablet/lib/jquery.toast.min.js"></script>
+    <script type="text/javascript" src="/fhem/tablet/lib/jquery.circlemenu.js"></script>
+    <script type="text/javascript" src="/fhem/tablet/lib/powerange.min.js"></script>
+    <script type="text/javascript" src="/fhem/tablet/lib/jquery.gridster.min.js"></script>
+    <script type="text/javascript" src="/fhem/tablet/lib/fa-multi-button.min.js"></script>
+    <script type="text/javascript" src="/fhem/tablet/js/fhem-tablet-ui.js"></script>
+     
+</head>
+<body>
+    <div data-type="clicksound"
+        data-sound='["ion-tap", "ion-water-droplet-2", "ion-button-tiny", "ion-cd-tray", "ion-water-droplet-3"]'
+        data-bind-to='["+knob", "+circlemenu-outer", "+button", "+circlemenu-center", "+slider"]'
+        data-length='[200,300,200,1400,200]'
+        data-volume="70"
+        ></div>
+         
+    <div class="gridster">
+ 
+        <ul>
+            <li data-row="1" data-col="1" data-sizex="1" data-sizey="6" data-template="/fhem/tablet/nav_left.html"></li>    
+ 
+...
+ 
+        </ul>
+    </div>
+</body>
+</html>
+
+  </body>
+</html>
